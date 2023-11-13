@@ -1,0 +1,16 @@
+<div class="m-3">
+<h1> Answer</h1>
+<div class="bg-light border-start border-5 p-3 m-2">
+  <p><%= @question %></p>
+  <p> -- You </p>
+</div>
+
+<div class="bg-warning border-start border-5 p-3 m-2 bg-opacity-25">
+
+
+  <p><%=  @answer %></p>
+  <p> -- Your coach </p>
+</div>
+
+<%= link_to "Ask a new question", questions_path %>
+</div>
